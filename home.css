@@ -1,0 +1,43 @@
+
+h1 {text-align: center;
+    color: rgb(0, 0, 0);
+    margin-block-start: 0cm;
+    margin-block-end: 0cm;
+    }
+
+h2 {text-align: center;
+    color: rgba(6, 20, 51, 0.925);
+    margin-block-start: 0cm;
+    margin-block-end: 0cm;
+}
+
+    
+<style>
+    #button-start {
+        position: fixed;
+    }
+
+    .start {
+        background-color : #3134d5;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 4px;
+        border-color: #3134d5;
+        position: fixed;
+        bottom: 100px;
+        right: 48%;
+    }
+
+
+    .box {
+        font-size: 20px;
+        line-height: 30px;
+        margin: auto;
+        text-align: justify;
+        width: 500px;
+        height: 250px;
+        border: 2px solid rgba(118, 118, 146, 0.384);
+        box-sizing: border-box;
+    }
+    
+</style>

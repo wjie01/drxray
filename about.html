@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <link rel="icon" href="mmulogo.JPG">
+
+        <title>Chest X-Ray Medical Diagnosis (AI)</title>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="about.css">
+
+        <script src="webpage.js"></script>
+    </head>
+    
+    <body style="background-color:rgb(143, 187, 238)">
+        <h1>About Us</h1>
+
+        <div class = "result">
+            <center><img src="resultpage.JPG" height="250px" alt="detection result"></center>
+        </div>
+
+        <div class = "details">  
+            <p>In technology, Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their action. 
+                Now, AI is transforming the practice of medicine. 
+                Hence, the automatic detection of chest disease based on chest radiography has become one of the hot topics in medical imaging research. 
+                This is because it is helping doctors diagnose patients more accurately, make predictions about patients’ future health, and recommend better treatments. 
+                Here, Chest X-Ray Medical Diagnosis (AI) is a diagnostic system of modern medicine. 
+                The system will help you to analyse data for making decisions to diagnose or identify pathological conditions. 
+                Thus, it can predict the probabilities of different pathological conditions in a short time. 
+                Before creating the model of the system, the system uses data pre-processing method to check and prevent data leakage between the train, validation, and test datasets. 
+                At the same time, it also implements a weighted loss function to address class imbalance. 
+                For making disease predictions on chest X-Ray images, it will be used a pre-trained neural network. 
+                For instance, you will be required to upload and submit a chest X-Ray image to the system. 
+                The system will analyse your chest X-Ray image with using a trained model. 
+                Afterwards, it will use a Gradient-weighted Class Activation Mapping’s (Grad-CAM) technique to produce a heatmap highlighting the important regions in the chest X-Ray image. 
+                Finally, your chest X-Ray image with a heatmap highlighting the right regions and the probabilities of different pathological conditions will be shown out on the screen. 
+                From this project, I hope it will bring more benefits to the healthcare industry and medical school. </p>
+        </div>
+
+        <div id="button-back">
+            <button class="back" onclick="window.location.href='diagnose.html'">Back</button>
+        </div>
+        
+    </body>
+</html>
